@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Geist", sans-serif;
+    background-color: black;
+
+}
+.container{
+    max-width: 1200px;
+    margin: auto;
+}
+span, h1, h2, h3, h4, h5, h6 {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+.text-sm {
+    font-size: 14px;
+    color: #ececec;
+    font-weight: 600;
+    line-height: 20px;
+    margin-bottom: 4px;
+    text-transform: capitalize;
+
+}
+.text-xs {
+    text-decoration: none;
+    font-size: 12px;
+    color: #9b9ba8;
+    font-weight: 400;
+    text-transform: capitalize;
+    /* cursor: pointer; */
+}
+
+
+/* home page start  */
+.about-me{
+    padding: 60px 0px;
+}
+.about-me img{
+    border-radius: 40px;
+    object-fit: cover;
+    object-position: top;
+}
+.about-me .heading{
+
+}
+.about-me .title{
+
+}
+
+
+/* home page end  */
+
+
+
+/* about page start  */
+
+
+/* about page end  */
