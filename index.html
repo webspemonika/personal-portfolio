@@ -13,6 +13,9 @@
     <link rel="stylesheet" href="css/style.css">
     <!-- layout css  -->
     <link rel="stylesheet" href="css/layout.css">
+    <!-- bootstrap-icon -->
+    <!-- <link href="css/bootstrap-icons.css" rel="stylesheet"> -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
 
 </head>
 
@@ -66,30 +69,36 @@
 
     <main class="">
         <!-- 1. about section start  -->
-        <section class="about-me">
+        <section id="about-me">
             <div class="container">
-                <div class="row justify-content-end align-items-center ">
+                <div class="row justify-content-end align-items-center gap-5 gap-lg-0 ">
                     <!-- left-side start  -->
                     <div class="col-lg-6 order-lg-0 order-1">
                         <!-- 1.heading  -->
-                         <h5 class="">About</h5>
+                        <h5 class="heading">About me</h5>
 
                         <!-- 2.title  -->
-                         <h2 class="title">Building backend systems that are clear, stable, and ready to grow.</h2>
+                        <h2 class="title">Building backend systems that are clear, stable, and ready to grow.</h2>
                         <!-- 3.description   -->
-                         <p class="description"> My work focuses on backend engineering: designing APIs, structuring application logic, improving system reliability, and integrating third-party services in a way that stays manageable over time.
+                        <p class="description"> My work focuses on backend engineering: designing APIs, structuring
+                            application logic, improving system reliability, and integrating third-party services in a
+                            way that stays manageable over time.
 
-I care about the parts of software that often matter most in production: data flow, failure handling, queues, retries, performance, and maintainable architecture. I enjoy turning complex requirements into systems that are easier to understand, safer to operate, and simpler to extend.
+                            I care about the parts of software that often matter most in production: data flow, failure
+                            handling, queues, retries, performance, and maintainable architecture. I enjoy turning
+                            complex requirements into systems that are easier to understand, safer to operate, and
+                            simpler to extend.
 
-While I can work across the stack when needed, my strongest value comes from backend development and the engineering decisions that make products more dependable.</p>
+                            While I can work across the stack when needed, my strongest value comes from backend
+                            development and the engineering decisions that make products more dependable.</p>
 
                     </div>
                     <!-- left-side end  -->
 
                     <!-- right start  -->
-                    <div class="col-lg-6 order-lg-1 order-0" >
+                    <div class="col-lg-6 order-lg-1 order-0">
                         <!-- img -->
-                         <img src="assets/about-me-image.jpg" alt="" class="img-fluid object-fit-cover ">
+                        <img src="assets/about-me-image.jpg" alt="" class="img-fluid object-fit-cover ">
                     </div>
                     <!-- right end  -->
                 </div>
@@ -98,11 +107,244 @@ While I can work across the stack when needed, my strongest value comes from bac
         <!-- 1. about section end -->
 
         <!-- 2. mission and vision start  -->
+        <section id="mission-vision">
+            <div class="container">
+                <!-- heading start  -->
+                <div class="heading">
+                    <h2 class=" title"> our mission and vision </h2>
+                    <p class="description">Our mission is to build reliable, scalable, and efficient digital solutions
+                        that solve real-world problems and create lasting value. We focus on clean architecture, strong
+                        performance, and user-centered design. Our vision is to become a trusted technology partner,
+                        delivering innovative systems that empower growth, adaptability, and long-term success.</p>
+                </div>
+                <!-- heading end -->
+
+                <!-- content start  -->
+                <div class=" card-container">
+                    <!-- 1 card start -->
+                    <div class=" card-details" style="--card-color: var(--mission-color);">
+                        <!-- 1.icon  -->
+                        <span class="icon"> <i class="bi bi-bullseye"></i></span>
+                        <!-- 2. title -->
+                        <h5 class="title"> mission </h5>
+                        <!-- 3. description  -->
+                        <p class="description">Our mission is to design and build reliable, scalable, and efficient
+                            digital systems that solve real-world problems. We focus on clean architecture, strong
+                            performance, and long-term maintainability to ensure products remain stable, adaptable, and
+                            valuable as they grow over time. </p>
+                        <!-- end -->
+                    </div>
+                    <!-- #FE9003 -->
+                    <!-- 1 card end -->
+
+                    <!-- 2 no card start  -->
+                    <div class=" card-details" style="--card-color: var(--vision-color);">
+                        <!-- 1.icon  -->
+                        <span class="icon"> <i class="bi bi-lightbulb"></i> </span>
+                        <!-- 2. title -->
+                        <h5 class="title"> our vision </h5>
+                        <!-- 3. description  -->
+                        <p class="description">Our vision is to become a trusted technology partner known for building
+                            dependable, scalable systems. We aim to empower businesses through innovative solutions,
+                            strong engineering practices, and long-term thinking, enabling continuous growth,
+                            adaptability, and success in an ever-evolving digital landscape. </p>
+                        <!-- end -->
+                    </div>
+                    <!-- #E40138 -->
+                    <!-- 2 no card end -->
+
+                    <!-- 3 no card start  -->
+                    <div class=" card-details" style="--card-color: var(--strategy-color);">
+                        <!-- 1.icon  -->
+                        <span class="icon"> <i class="bi bi-graph-up-arrow"></i></span>
+                        <!-- 2. title -->
+                        <h5 class="title"> our strategy </h5>
+                        <!-- 3. description  -->
+                        <p class="description">Our mission is to design and build reliable, scalable, and efficient
+                            digital systems that solve real-world problems. We focus on clean architecture, strong
+                            performance, and long-term maintainability to ensure products remain stable, adaptable, and
+                            valuable as they grow over time. </p>
+                        <!-- end -->
+                    </div>
+                    <!-- #18AD90 -->
+                    <!-- 3 no card end -->
+                </div>
+                <!-- content end -->
+            </div>
+        </section>
         <!-- 2. mission and vision end -->
 
         <!-- 3. service list start  -->
+        <section id="service-list">
+            <div class="container">
+                <!-- heading start  -->
+                <!-- heading start  -->
+                <div class="heading">
+                    <h2 class=" title"> our services </h2>
+                    <p class="description">Our mission is to build reliable, scalable, and efficient digital solutions
+                        that solve real-world problems and create lasting value. We focus on clean architecture, strong
+                        performance, and user-centered design. Our vision is to become a trusted technology partner,
+                        delivering innovative systems that empower growth, adaptability, and long-term success.</p>
+                </div>
+                <!-- heading end -->
+
+                <div class="card-container">
+                    <!--card:1 start -->
+                    <div class="card-details">
+                        <!-- 1.icon  -->
+                        <span class="icon">
+                            <i class="bi bi-palette icon"></i>
+                        </span>
+                        <!-- 2.heading  -->
+                        <p class="heading"> Graphic Design </p>
+                        <!-- 3.details -->
+                        <p class="description"> Creative, modern, visually appealing designs with strong branding,
+                            attention to detail, and client satisfaction focus.</p>
+                        <!-- end  -->
+                    </div>
+                    <!--card:1 end -->
+
+                     <!--card:2 start -->
+                    <div class="card-details">
+                        <!-- 1.icon  -->
+                        <span class="icon">
+                            <i class="bi bi-palette icon"></i>
+                        </span>
+                        <!-- 2.heading  -->
+                        <p class="heading"> motion Graphic </p>
+                        <!-- 3.details -->
+                        <p class="description"> Creative, modern, visually appealing designs with strong branding,
+                            attention to detail, and client satisfaction focus.</p>
+                        <!-- end  -->
+                    </div>
+                    <!--card:2 end -->
+
+                      <!--card:3 start -->
+                    <div class="card-details">
+                        <!-- 1.icon  -->
+                        <span class="icon">
+                            <i class="bi bi-palette icon"></i>
+                        </span>
+                        <!-- 2.heading  -->
+                        <p class="heading"> motion Graphic </p>
+                        <!-- 3.details -->
+                        <p class="description"> Creative, modern, visually appealing designs with strong branding,
+                            attention to detail, and client satisfaction focus.</p>
+                        <!-- end  -->
+                    </div>
+                    <!--card:3 end -->
+
+                      <!--card:4 start -->
+                    <div class="card-details">
+                        <!-- 1.icon  -->
+                        <span class="icon">
+                            <i class="bi bi-palette icon"></i>
+                        </span>
+                        <!-- 2.heading  -->
+                        <p class="heading"> motion Graphic </p>
+                        <!-- 3.details -->
+                        <p class="description"> Creative, modern, visually appealing designs with strong branding,
+                            attention to detail, and client satisfaction focus.</p>
+                        <!-- end  -->
+                    </div>
+                    <!--card:4 end -->
+
+                </div>
+            </div>
+        </section>
         <!-- 3. service list end -->
 
+        <!-- 4. client feedback start -->
+        <section id="client-feedback">
+            <div class="container">
+                <!-- heading start  -->
+                <div class="heading">
+                    <h2 class="title"> our clients feedback</h2>
+                </div>
+                <!-- heading end -->
+
+                <div class="card-container">
+                    <!-- 1 start  -->
+                    <div class="card-detail">
+                        <!-- 1.quote icon -->
+                        <span class="icon">
+                            <i class="bi bi-quote"></i>
+                        </span>
+                        <!-- 2. client feedback text -->
+                        <p class="description">
+                            Excellent service, clean design, fast delivery, very professional team, highly recommended
+                            for reliable digital solutions.
+
+                        </p>
+                        <div class="client-info">
+                            <!-- 3. client avatar  -->
+                            <img src="assets/client-1.avif" alt="" class="">
+                            <div class="">
+                                <!-- 4.client name  -->
+                                <p class="name"> donaeld emi</p>
+                                <!-- 5.client designation  -->
+                                <p class="designation"> full stack web developer </p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <!-- 1 end -->
+                    <!-- 2 start  -->
+                    <div class="card-detail">
+                        <!-- 1.quote icon -->
+                        <span class="icon">
+                            <i class="bi bi-quote"></i>
+                        </span>
+                        <!-- 2. client feedback text -->
+                        <p class="description">
+                            Excellent service, clean design, fast delivery, very professional team, highly recommended
+                            for reliable digital solutions.
+
+                        </p>
+                        <div class="client-info">
+                            <!-- 3. client avatar  -->
+                            <img src="assets/client-2.webp" alt="" class="">
+                            <div class="">
+                                <!-- 4.client name  -->
+                                <p class="name"> donaeld emi</p>
+                                <!-- 5.client designation  -->
+                                <p class="designation"> full stack web developer </p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <!-- 2 end -->
+                    <!-- 3 start  -->
+                    <div class="card-detail">
+                        <!-- 1.quote icon -->
+                        <span class="icon">
+                            <i class="bi bi-quote"></i>
+                        </span>
+                        <!-- 2. client feedback text -->
+                        <p class="description">
+                            Excellent service, clean design, fast delivery, very professional team, highly recommended
+                            for reliable digital solutions.
+
+                        </p>
+                        <div class="client-info">
+                            <!-- 3. client avatar  -->
+                            <img src="assets/client-3.webp" alt="" class="">
+                            <div class="">
+                                <!-- 4.client name  -->
+                                <p class="name"> donaeld emi</p>
+                                <!-- 5.client designation  -->
+                                <p class="designation"> full stack web developer </p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <!-- 3 end -->
+
+                    <!-- cards end -->
+                </div>
+            </div>
+        </section>
+        <!-- 4. client feedback end -->
         <!--  -->
     </main>
 

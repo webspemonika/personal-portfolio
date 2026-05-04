@@ -12,6 +12,7 @@
 }
 #header .navbar-toggler {
     border: none;
+    /* background-color: #424242; */
 }
 
 #header .navbar-toggler-icon {
@@ -24,6 +25,9 @@
  text-transform: capitalize;
  padding: 0px 16px ;
 
+}
+#header .nav-link.active{
+    color: #2dd4bf;
 }
 #header .nav-link:hover{
     color: #2dd4bf;
