@@ -12,24 +12,6 @@
     text-transform: capitalize;
 }
 
-#existing-client .card-details .client-info .designation {
-    font-size: 10px;
-    color: #2dd4bf;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    margin-top: 10px;
-}
-
-
-
-
-
-#skill .skill-container {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 40px;
-}
-
 
 
 #skill .skill-detail {
