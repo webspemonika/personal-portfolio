@@ -20,7 +20,7 @@
     margin-top: 10px;
 }
 
-#existing-client .heading 
+
 
 
 
@@ -43,15 +43,6 @@
 
 }
 
-#skill .skill-info .skill-name,
-#skill .skill-info .skill-percent {
-    font-size: 14px;
-    color: #ececec;
-    font-weight: 500;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-
-}
 
 /* about page end  */
 
@@ -87,15 +78,6 @@
     border-radius: 24px;
 }
 
-#contact-page .contact-links .heading {
-    font-size: 20px;
-    color: #2dd4bf;
-    font-weight: 500;
-
-    text-transform: uppercase;
-    text-align: center;
-    letter-spacing: 1px;
-}
 
 #contact-page .contact-links .contact-info-container {
     margin-top: 40px;
@@ -126,12 +108,7 @@
     letter-spacing: 1px;
 }
 
- .social-link {
-    text-decoration: none;
-    color: #ececec;
-    font-size: 14px;
-    font-weight: 600;
-}
+
 
 #contact-page .contact-form {
     display: flex;

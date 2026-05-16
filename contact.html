@@ -102,29 +102,29 @@
                     </div>
                     <!-- 01,left side : information ,end -->
                     <!-- 02, right side : contact-form start  -->
-                    <div class="contact-form">
+                    <form class="contact-form" name="myForm" onsubmit="return validateForm()">
                         
                         <!-- 1.name  -->
                         <div class="">
                             <label for="label" class="label"> name :</label>
-                            <input type="text" placeholder="enter your name" class="input-field">
+                            <input type="text" placeholder="enter your name" class="input-field" name="fname">
                         </div>
 
                         <!-- 2.email  -->
                         <div class="">
                             <label class="label"> email address : </label>
-                            <input type="email" placeholder="enter your email" class="input-field">
+                            <input type="email" placeholder="enter your email" class="input-field" name="email">
                         </div>
                        
                         <!-- 4.address  -->
                         <div class="">
                             <label for="label" class="label"> address : </label>
-                            <input type="text" placeholder="enter your address" class="input-field">
+                            <input type="text" placeholder="enter your address" class="input-field" name="address">
                         </div>
                         <!-- 5. send message  -->
-                        <button type="button" class="btn"> send message </button>
+                       <button type="submit" class="btn"> send message </button>
                         <!-- 02, right side : contact-form end -->
-                    </div>
+                    </form>
                 </div>
             </div>
 
@@ -146,8 +146,7 @@
         <!-- section:03 google map  end  -->
     </main>
 
-
-    <footer id="footer" class="">
+  <footer id="footer" class="">
         <div class="container">
             <div class="row">
                 <!-- left start  -->
@@ -155,6 +154,8 @@
                     <h3 class="text-sm"> monika akther </h3>
                     <p class="text-xs"> i build scalble apis , automation system , backend arhitecture real time world
                         products </p>
+
+
                 </div>
                 <!-- left end  -->
 
@@ -170,7 +171,9 @@
 
 
             <!-- copy right text start  -->
-            <p class="text-xs copyright-text"> @ 2026 created by webTurtel.com </p>
+            <p class="text-xs copyright-text"> @ 2026 created by webTurtel.com
+                <span id="datetime"></span>
+            </p>
             <!-- copy right text end  -->
         </div>
     </footer>
@@ -183,6 +186,9 @@
     <!-- iconify start  -->
     <script src="https://code.iconify.design/iconify-icon/3.0.0/iconify-icon.min.js"></script>
     <!-- iconify end  -->
+      <!-- js start  -->
+      <script src="./js/script.js"></script>
+     <!-- js end -->
 </body>
 
 </html>

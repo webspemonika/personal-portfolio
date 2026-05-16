@@ -176,7 +176,12 @@ img {
     margin-top: 24px;
 
 }
-
+ .social-link {
+    text-decoration: none;
+    color: #ececec;
+    font-size: 14px;
+    font-weight: 600;
+}
 @media (max-width: 991.98px) {
     .page-title {
         font-size: 20px;
