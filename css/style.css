@@ -1,413 +1,4 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 
-body {
-    font-family: "Geist", sans-serif;
-    background-color: black;
-
-}
-
-:root {
-    --mission-color: #FE9003;
-    --vision-color: #E40138;
-    --strategy-color: #7664E4;
-}
-
-.container {
-    width: 1280px;
-    margin: auto;
-    width: 100%;
-}
-
-span,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    margin: 0 !important;
-    padding: 0 !important;
-}
-
-.page-title {
-    font-size: 26px;
-    color: #2dd4bf;
-    font-weight: 600;
-    letter-spacing: 2px;
-    text-align: center;
-    text-transform: uppercase;
-
-}
-
-.label {
-    display: block;
-    font-size: 14px;
-    color: #9b9ba8;
-    font-weight: 400;
-    text-transform: capitalize;
-    margin-bottom: 6px;
-}
-
-.input-field {
-    background-color: #0E0E12;
-    padding: 10px;
-    border: none;
-    border-radius: 10px;
-    display: block;
-    color: white;
-    width: 100%;
-}
-
-.input-field:focus {
-    outline: 1px solid #2dd4bf;
-}
-
-.text-sm {
-    font-size: 14px;
-    color: #ececec;
-    font-weight: 600;
-    line-height: 20px;
-    margin-bottom: 4px;
-    text-transform: capitalize;
-
-}
-
-.text-xs {
-    text-decoration: none;
-    font-size: 12px;
-    color: #9b9ba8;
-    font-weight: 400;
-    text-transform: capitalize;
-    /* cursor: pointer; */
-}
-
-
-/* home page start  */
-#about-me {
-    padding: 100px 0px;
-    border-bottom: 1px solid #ececef14;
-}
-
-#about-me img {
-    width: 100%;
-    border-radius: 40px;
-    object-fit: cover;
-    object-position: top;
-}
-
-#about-me .heading {
-    font-size: 12px;
-    color: #2dd4bf;
-    font-weight: 500;
-    line-height: 16px;
-    text-transform: uppercase;
-    letter-spacing: 2.4px;
-
-}
-
-#about-me .title {
-    font-size: 30px;
-    color: #ececef;
-    font-weight: 600;
-    line-height: 36px;
-    letter-spacing: -0.75px;
-    text-transform: capitalize;
-    margin: 12px 0px 16px 0px !important;
-    /* margin-top: 120px; */
-    /* padding-top:  ?; */
-}
-
-#about-me .description {
-    font-size: 16px;
-    color: #9b9ba8;
-    font-weight: 400;
-    line-height: 26px;
-
-}
-
-/* mission and vission start  */
-#mission-vision {
-    padding: 100px 0px;
-    border-bottom: 1px solid #ececef14;
-
-}
-
-#mission-vision .heading {
-    width: 70%;
-    margin: auto;
-    text-align: center;
-}
-
-#mission-vision .heading .title {
-    font-size: 20px;
-    color: #2dd4bf;
-    font-weight: 500;
-    line-height: 16px;
-    text-transform: uppercase;
-    letter-spacing: 2.4px;
-}
-
-#mission-vision .heading .description {
-    font-size: 14px;
-    color: #9b9ba8;
-    font-weight: 400;
-    margin-top: 12px;
-    /* line-height: 26px; */
-}
-
-#mission-vision .card-container {
-    margin-top: 60px;
-
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    /* gap: 30px; */
-
-    gap: 24px;
-}
-
-#mission-vision .card-details {
-    padding: 20px 12px;
-    background-color: #0E0E12;
-    text-align: center;
-    border-radius: 20px;
-    border-bottom: 12px solid var(--card-color);
-    ;
-
-}
-
-#mission-vision .card-details .icon {
-    font-size: 60px;
-    color: var(--card-color);
-}
-
-#mission-vision .card-details .title {
-    font-size: 20px;
-    color: whitesmoke;
-    font-weight: 500;
-    line-height: 16px;
-    text-transform: uppercase;
-    letter-spacing: 2.4px;
-    margin: 12px 0px 12px !important;
-}
-
-#mission-vision .card-details .description {
-    font-size: 12px;
-    color: #9b9ba8;
-    font-weight: 400;
-    /* margin-top: 12px; */
-}
-
-/* mission and vission end */
-/* service list start  */
-#service-list {
-    padding: 100px 0px;
-    border-bottom: 1px solid #ececef14;
-}
-
-#service-list .heading {
-    width: 70%;
-    margin: auto;
-    text-align: center;
-}
-
-#service-list .heading .title {
-    font-size: 20px;
-    color: #2dd4bf;
-    font-weight: 500;
-    line-height: 16px;
-    text-transform: uppercase;
-    letter-spacing: 2.4px;
-}
-
-#service-list .heading .description {
-    font-size: 14px;
-    color: #9b9ba8;
-    font-weight: 400;
-    margin-top: 12px;
-    /* line-height: 26px; */
-}
-
-#service-list .card-container {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    /* gap: 24px; */
-    margin-top: 50px;
-
-}
-
-#service-list .icon {
-    font-size: 30px;
-    color: #2dd4bf;
-    text-align: center;
-}
-
-#service-list .card-details {
-    border: 1px solid #9b9ba8;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    gap: 16px;
-    /* border : 1px solid #2dd4bf;  */
-    border: 1px solid #ececef14;
-    border-radius: 12px;
-    padding: 20px 8px;
-}
-
-#service-list .card-details:hover {
-    cursor: pointer;
-    border: 1px solid #2dd4bf;
-}
-
-#service-list .card-details .heading {
-    font-size: 24px;
-    color: white;
-    font-weight: 600;
-    text-transform: capitalize;
-}
-
-#service-list .card-details .description {
-    font-size: 12px;
-    /* color: #2dd4bf; */
-    color: #9b9ba8;
-    font-weight: 400;
-
-}
-
-/* service list end */
-/* client feedback start  */
-#client-feedback {
-    padding: 100px 0px;
-}
-
-#client-feedback .heading {
-    width: 70%;
-    margin: auto;
-    text-align: center;
-}
-
-#client-feedback .heading .title {
-    font-size: 20px;
-    color: #2dd4bf;
-    font-weight: 500;
-    line-height: 16px;
-    text-transform: uppercase;
-    letter-spacing: 2.4px;
-}
-
-#client-feedback .card-container {
-    margin-top: 40px;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
-}
-
-#client-feedback .card-detail {
-    background-color: #0E0E12;
-    padding: 20px 24px;
-    border-radius: 20px;
-}
-
-#client-feedback .card-detail .icon {
-    width: 40px;
-    height: 40px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: 1px solid #9b9ba8;
-    border-radius: 100%;
-    color: #2dd4bf;
-}
-
-#client-feedback .card-detail .description {
-    font-size: 16px;
-    color: #9b9ba8;
-    font-weight: 400;
-    margin: 20px 0px 24px;
-}
-
-#client-feedback .card-detail .client-info {
-    display: flex;
-    gap: 16px;
-    align-items: center;
-    border-top: 1px solid #ececef14;
-    padding-top: 20px;
-}
-
-#client-feedback .card-detail img {
-    width: 60px;
-    height: 60px;
-    border-radius: 100%;
-    object-fit: cover;
-
-}
-
-#client-feedback .card-detail .name {
-    font-size: 14px;
-    color: #2dd4bf;
-    font-weight: 600;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    margin-bottom: 0;
-    /* margin: 16px 0px ; */
-}
-
-#client-feedback .card-detail .designation {
-    margin-bottom: 0;
-    font-size: 14px;
-    color: #9b9ba8;
-    font-weight: 500;
-    text-transform: capitalize;
-    /* letter-spacing: 2px; */
-    margin-bottom: 0;
-}
-
-/* client feedback end */
-/* home page end  */
-
-
-
-/* about page start  */
-#about-page {
-    padding: 60px 0px;
-    border-bottom: 1px solid #ececef14;
-}
-
-#about-page .page-title {
-    font-size: 26px;
-    color: #2dd4bf;
-    font-weight: 600;
-    letter-spacing: 2px;
-    text-align: center;
-    text-transform: uppercase;
-}
-
-
-
-#existing-client {
-    padding: 100px 0px;
-}
-
-#existing-client .existig-client-cards-container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 24px;
-
-}
-
-#existing-client .card-details {
-    padding: 20px 10px;
-    background-color: #0E0E12;
-    border-radius: 30px;
-}
-
-#existing-client .card-details img {
-    width: 100%;
-    border-radius: 30px;
-}
 
 #existing-client .card-details .client-info {
     text-align: center;
@@ -429,20 +20,9 @@ h6 {
     margin-top: 10px;
 }
 
-#existing-client .heading h2 {
-    font-size: 24px;
-    color: #2dd4bf;
-    text-transform: uppercase;
-    text-align: center;
-    letter-spacing: 1px;
-    /* margin-top: 10px; */
-    margin-bottom: 40px !important;
-}
+#existing-client .heading 
 
 
-#skill {
-    padding: 100px 0px;
-}
 
 #skill .skill-container {
     display: grid;
@@ -450,14 +30,7 @@ h6 {
     gap: 40px;
 }
 
-#skill .title {
-    font-size: 24px;
-    color: #2dd4bf;
-    font-weight: 600;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    margin-bottom: 20px !important;
-}
+
 
 #skill .skill-detail {
     margin-bottom: 20px;
@@ -483,24 +56,24 @@ h6 {
 /* about page end  */
 
 /* page:03 protfolio page start  */
-#portfolio-page {
-    padding: 60px 0px;
-    border-bottom: 1px solid #ececef14;
-}
+
 
 /* page:03 protfolio page end */
+
+
+
 /* page: 04 service page start  */
-#service-page {
-    padding: 60px 0px;
-    border-bottom: 1px solid #ececef14;
-}
+
 
 /* page: 04 service page end */
+
+
+
+
+
+
 /* page:05  contact page start  */
-#contact-page {
-    padding: 60px 0;
-    border-bottom: 1px solid #ececef14;
-}
+
 
 #contact-page .contact-info-container {
     display: grid;
@@ -513,8 +86,9 @@ h6 {
     padding: 60px 24px;
     border-radius: 24px;
 }
-#contact-page .contact-links .heading{
-     font-size: 20px;
+
+#contact-page .contact-links .heading {
+    font-size: 20px;
     color: #2dd4bf;
     font-weight: 500;
 
@@ -522,26 +96,28 @@ h6 {
     text-align: center;
     letter-spacing: 1px;
 }
-#contact-page .contact-links .contact-info-container{
+
+#contact-page .contact-links .contact-info-container {
     margin-top: 40px;
-  display: grid;
-  grid-template-columns: repeat(2 ,1fr);
-  cursor: pointer;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    cursor: pointer;
     gap: 10px;
 }
-#contact-page .contact-links .info{
-    padding: 10px  8px;
+
+#contact-page .contact-links .info {
+    padding: 10px 8px;
     background-color: #000;
     border-radius: 13px;
     display: flex;
     flex-direction: column;
     align-items: start;
 }
-#contact-page .contact-links .info:hover{
-outline:1px solid  #2dd4bf;
-}
-#contact-page .contact-links .name{
-     font-size: 14px;
+
+
+
+#contact-page .contact-links .name {
+    font-size: 14px;
     color: #9b9ba8;
     font-weight: 400;
 
@@ -549,13 +125,15 @@ outline:1px solid  #2dd4bf;
     text-align: center;
     letter-spacing: 1px;
 }
-#contact-page .contact-links .link{
+
+ .social-link {
     text-decoration: none;
-color: #ececec;
-  font-size: 12px;
+    color: #ececec;
+    font-size: 14px;
     font-weight: 600;
 }
-#contact-page  .contact-form {
+
+#contact-page .contact-form {
     display: flex;
     flex-direction: column;
     gap: 24px;
@@ -564,39 +142,7 @@ color: #ececec;
     border-radius: 30px;
 }
 
-#contact-page .contact-form .title {
-    font-size: 14px;
-    color: #2dd4bf;
-    font-weight: 600;
-    text-transform: capitalize;
-}
 
-#contact-page .contact-form .description {
-    font-size: 12px;
-    color: #ececec;
-    font-weight: 400;
-    text-transform: capitalize;
-    margin-top: 20px;
-}
-
-#contact-page .contact-form .send-message {
-    font-size: 14px;
-    color: #0E0E12;
-    padding: 12px 30px;
-    display: inline-block;
-    border-radius: 30px;
-    background-color: #2dd4bf;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-
-    width: fit-content;
-    margin-top: 24px;
-
-}
-
-#map {
-    padding: 100px 0;
-}
 
 #map .map iframe {
     width: 100%;
@@ -605,86 +151,3 @@ color: #ececec;
 
 /* page:05  contact page end */
 
-@media (max-width: 991.98px) {
-
-    #about-me,
-    #mission-vision,
-    #client-feedback,
-    #service-list {
-        padding: 40px 10px;
-    }
-
-
-    #mission-vision .card-container {
-        margin-top: 20px;
-
-        grid-template-columns: 1fr;
-
-    }
-
-    #mission-vision .heading {
-        width: 100%;
-        margin: auto;
-        text-align: center;
-    }
-
-
-    #client-feedback .card-container {
-        grid-template-columns: 1fr;
-    }
-
-
-
-    #service-list .heading {
-        width: 100%;
-        margin: auto;
-        text-align: center;
-    }
-
-    #service-list .card-container {
-        grid-template-columns: 1fr;
-    }
-
-    #client-feedback .heading {
-        width: 100%;
-        margin: auto;
-        text-align: center;
-    }
-
-
-    /* about page start  */
-    #about-page,
-    #existing-client,
-    #skill {
-        padding: 40px 10px;
-    }
-
-    #existing-client .existig-client-cards-container {
-        grid-template-columns: 1fr;
-    }
-
-    #existing-client .heading h2 {
-        margin-bottom: 20px;
-    }
-
-    #skill .skill-container {
-        grid-template-columns: 1fr;
-        gap: 20px
-    }
-
-    /* about page end  */
-
-
-
-    /* page:05 contact page start  */
-    #contact-page,
-    #map {
-        padding: 40px 0px;
-    }
-
-    #contact-page .contact-info-container {
-        grid-template-columns: 1fr;
-    }
-
-    /* page:05 contact page end */
-}
